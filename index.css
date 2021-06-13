@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+
+/* navabar */
+.nav {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-image: linear-gradient(
+    to right,
+    #4b3a84,
+    #483887,
+    #443789,
+    #41358c,
+    #3c348f
+  );
+  color: white;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.logo {
+  color: tomato;
+  font-weight: 900;
+  justify-items: center;
+}
+.links {
+  width: 10rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+
+  border-bottom: 0.2px solid white;
+}
+/* hero sectopm */
+.hero {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 7rem 0 5rem 0;
+  background-image: linear-gradient(
+    to right,
+    #4b3a84,
+    #483887,
+    #443789,
+    #41358c,
+    #3c348f
+  );
+}
+.hero > img {
+  height: 25rem;
+  border-radius: 16px;
+  border: 0.5px solid white;
+  transform: rotate(-15deg);
+}
+.hero > img:hover {
+  transform: rotate(0deg);
+}
+.info {
+  color: white;
+}
+.title {
+  font-size: 5rem;
+  font-family: "Lato", sans-serif;
+}
+.description {
+  font-size: 2rem;
+}
+
+/* about section */
+
+.section {
+  /* padding: 2rem 5rem; */
+  padding: 7rem 0 5rem 0;
+}
+.about .title {
+  padding-bottom: 2rem;
+}
+.about .description {
+  padding-bottom: 2rem;
+}
+
+/* skill secton */
+.tech {
+  background-image: linear-gradient(
+    to right,
+    #4b3a84,
+    #483887,
+    #443789,
+    #41358c,
+    #3c348f
+  );
+  color: black;
+}
+.tech > .title {
+  padding-bottom: 2rem;
+}
+.tech > .description {
+  padding-bottom: 2rem;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.skill {
+  min-width: 10em;
+  margin: 1em;
+}
+.skill img {
+  height: 10em;
+}
+
+.skill .description {
+  font-size: 1rem;
+  letter-spacing: 4px;
+  font-weight: 800;
+  text-align: center;
+  padding: 1rem;
+}
+/* footer */
+
+.footer {
+  background-color: rgb(49, 44, 44);
+  color: white;
+  display: flex;
+  padding: 0 5rem;
+  justify-content: space-between;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+.copyright {
+  margin: auto 0;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 3px;
+  padding: 7rem 0 5rem 0;
+}
+.contact {
+  font-weight: 600;
+  font-family: "lato";
+  margin: 1em;
+  letter-spacing: 2px;
+  text-align: left;
+  font-size: 2rem;
+}
+.me {
+  font-size: 1rem;
+}
